@@ -15,7 +15,7 @@ This Python project compares the performance of the Strassen matrix multiplicati
 🚫 No external libraries required (uses standard library module: time)
 
 📂 Project Structure
-strassen-matrix-benchmark/
+``` strassen-matrix-benchmark/
 ├── matrices.txt               # 📄 Input file containing matrices
 ├── src/
 │   ├── __init__.py           # 📦 Makes src a Python package
@@ -25,7 +25,7 @@ strassen-matrix-benchmark/
 │   └── benchmark.py          # ⏱ Benchmarking and result handling
 ├── main.py                   # 🎬 Main script to orchestrate execution
 ├── results.csv               # 📈 Output file with benchmark results
-└── README.md                 # 📜 This file
+└── README.md                 # 📜 This file ```
 
 ⚙️ Setup
 
@@ -39,11 +39,12 @@ Prepare Input File 📝
 Create a matrices.txt file in the project root with matrices in the following format:
 Each matrix is represented by rows of space-separated integers.
 Matrices are separated by a blank line.
-Example:1 2
+Example:
+```1 2
 3 4
 
 5 6
-7 8
+7 8```
 
 This represents two 2x2 matrices to be multiplied.
 
@@ -74,7 +75,7 @@ The program will:
 
 📈 Example Output
 Console Output:
-Calculating for 2x2 matrices... 🟢
+```Calculating for 2x2 matrices... 🟢
 Calculating for 4x4 matrices... 🟢
 Matrix Size  Standard Time (s)  Strassen Time (s)
 2            0.000123          0.000456
@@ -83,7 +84,7 @@ Matrix Size  Standard Time (s)  Strassen Time (s)
 results.csv Content:
 Matrix Size,Standard Time (s),Strassen Time (s)
 2,0.000123,0.000456
-4,0.001234,0.002345
+4,0.001234,0.002345 ```
 
 📝 Notes
 
