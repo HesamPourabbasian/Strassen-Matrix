@@ -1,0 +1,4 @@
+Matrix Size,Standard Time (s),Strassen Time (s)
+4,0.000011,0.000115
+8,0.000043,0.000766
+16,0.000304,0.005071
