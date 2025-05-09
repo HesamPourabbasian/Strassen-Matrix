@@ -14,20 +14,7 @@ This Python project compares the performance of the Strassen matrix multiplicati
 🐍 Python 3.7 or higher
 🚫 No external libraries required (uses standard library module: time)
 
-📂 Project Structure
-```
- strassen-matrix-benchmark/
-├── matrices.txt               # 📄 Input file containing matrices
-├── src/
-│   ├── __init__.py           # 📦 Makes src a Python package
-│   ├── file_handler.py       # 📖 Functions for reading matrices from file
-│   ├── matrix_operations.py  # ➕ Basic matrix operations (add, subtract, etc.)
-│   ├── strassen.py           # 🌟 Strassen matrix multiplication implementation
-│   └── benchmark.py          # ⏱ Benchmarking and result handling
-├── main.py                   # 🎬 Main script to orchestrate execution
-├── results.csv               # 📈 Output file with benchmark results
-└── README.md                 # 📜 This file 
-```
+
 ⚙️ Setup
 
 Clone or Download 📥
